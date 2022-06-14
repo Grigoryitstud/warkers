@@ -1,0 +1,53 @@
+.intro {
+    background: #dadee2/*запасной фон!!!*/ url("../img/maxresdefault.jpg") no-repeat center / cover ;/* /
+        cover всю высоту и ширину блока*/
+}
+
+.intro__inner {
+    padding: 50px 0;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+}
+
+.intro__titles {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    line-height: 1.1; 
+    text-align: center;
+    color: #f15624;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.intro__subtitles {
+    width: 70%;
+    text-align: center;
+    
+    font-size: 28px;
+    color: #000000;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.icon {
+    width: 85%;
+    font-size: 22px;
+    color: #515a90;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;   /*между элементами бокса расстояние*/
+    align-items: center;
+    gap: 8%;
+}
+/* .icon__inner {
+
+} */
+.icon__logo {
+width: 80px;
+height: auto;
+}
