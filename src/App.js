@@ -15,7 +15,7 @@ const App = (props) => {
         <Header />
         <div className={s.mainStyles}>
           <Routes>
-            <Route path='' element={<MainPage />} />
+            <Route path='/warkers' element={<MainPage />} />
             <Route path='/Build' element={<Build />} />
             <Route path='/Car' element={<Car />} />
             <Route path='/Other' element={<Other />} />
