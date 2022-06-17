@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/warkers/static/css/main.320af580.css",
-    "main.js": "/warkers/static/js/main.71170047.js",
+    "main.css": "/warkers/static/css/main.a5eab69d.css",
+    "main.js": "/warkers/static/js/main.e3b71bd8.js",
     "static/js/787.2b9dd4ec.chunk.js": "/warkers/static/js/787.2b9dd4ec.chunk.js",
     "static/media/maxresdefault.jpg": "/warkers/static/media/maxresdefault.22d964a40fab4b70fc12.jpg",
+    "static/media/gomel.jpg": "/warkers/static/media/gomel.c026ce5ad5a6841a759f.jpg",
+    "static/media/minsk.jpg": "/warkers/static/media/minsk.f8a747ab7b372a488181.jpg",
     "static/media/logo.png": "/warkers/static/media/logo.239d009728c4f87fe8b1.png",
+    "static/media/grodno.jpg": "/warkers/static/media/grodno.992eabae37b83343dd94.jpg",
+    "static/media/brest.jpg": "/warkers/static/media/brest.50186b9b0f463b499788.jpg",
     "static/media/more.png": "/warkers/static/media/more.3f88e878520912a42b61.png",
     "index.html": "/warkers/index.html",
-    "main.320af580.css.map": "/warkers/static/css/main.320af580.css.map",
-    "main.71170047.js.map": "/warkers/static/js/main.71170047.js.map",
+    "main.a5eab69d.css.map": "/warkers/static/css/main.a5eab69d.css.map",
+    "main.e3b71bd8.js.map": "/warkers/static/js/main.e3b71bd8.js.map",
     "787.2b9dd4ec.chunk.js.map": "/warkers/static/js/787.2b9dd4ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.320af580.css",
-    "static/js/main.71170047.js"
+    "static/css/main.a5eab69d.css",
+    "static/js/main.e3b71bd8.js"
   ]
 }
