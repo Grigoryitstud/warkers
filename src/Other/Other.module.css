@@ -1,7 +1,17 @@
-.gov {
+.demo {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    gap: 40px;
-    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    color: #000;
+    background-color: blanchedalmond;
+}
+.titles {
+    text-align: center;
+}
+.pop {
+    width: 150px;
+    height: 200px;
 }

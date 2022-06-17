@@ -1,4 +1,45 @@
 .demo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 5px;
     color: #000;
+    background-color: blanchedalmond;
+}
+.titles {
+    height: 80px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main {
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    
+}
+.secondary {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.secondary {
+    display: none;
+}
+.active {
+    color: rgb(202, 190, 19);
+}
+
+
+.pop {
+    width: 150px;
+    height: 200px;
 }

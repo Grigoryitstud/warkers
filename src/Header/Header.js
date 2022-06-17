@@ -4,7 +4,7 @@ import s from './Header.module.css';
 import { NavLink } from 'react-router-dom';
 
 let pagesContent = [
-  {id: 1, link:'', name:'ГЛАВНАЯ'},
+  {id: 1, link:'/warkers', name:'ГЛАВНАЯ'},
   {id: 2, link:'/Build', name:'СТОРОИТЕЛЬСТВО'},
   {id: 3, link:'/Car', name:'АВТО'},
   {id: 4, link:'/Other', name:'ДРУГИЕ УСЛУГИ'}
