@@ -10,7 +10,9 @@ let pagesContent = [
   {id: 4, link:'/Other', name:'ДРУГИЕ УСЛУГИ'}
 ]
 
-let mainPages = pagesContent.map( pagesContent => <NavLink to={pagesContent.link} className = { navData => navData.isActive ? s.active : s.item }>{pagesContent.name}</NavLink> )
+let mainPages = pagesContent.map( pagesContent => <NavLink to={pagesContent.link}
+   className = { navData => navData.isActive ? s.active : s.item }>
+    {pagesContent.name}</NavLink> )
 
 const Header = (props) => {
   return (

@@ -6,6 +6,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Build from './Build/Build';
 import Car from './Car/Car'
 import Other from './Other/Other';
+import Mol from './Build/Mol/Mol';
+import Mon from './Build/Mon/Mon';
+import Soc from './Build/Soc/Soc';
 
 const App = (props) => {
   return (
@@ -16,7 +19,10 @@ const App = (props) => {
         <div className={s.mainStyles}>
           <Routes>
             <Route path='/warkers' element={<MainPage />} />
-            <Route path='/Build' element={<Build />} />
+            <Route exact path='/Build' element={<Build />} />
+            <Route path='/Build/Mol' element={<Mol />} />
+            <Route path='/Build/Mon' element={<Mon />} />            
+            <Route path='/Build/Soc' element={<Soc />} />
             <Route path='/Car' element={<Car />} />
             <Route path='/Other' element={<Other />} />
           </Routes>
@@ -28,3 +34,5 @@ const App = (props) => {
 }
 
 export default App;
+
+
