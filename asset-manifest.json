@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/warkers/static/css/main.ac6e2fc1.css",
-    "main.js": "/warkers/static/js/main.a4067335.js",
+    "main.css": "/warkers/static/css/main.18226f6c.css",
+    "main.js": "/warkers/static/js/main.6d4f0cf2.js",
     "static/js/787.2b9dd4ec.chunk.js": "/warkers/static/js/787.2b9dd4ec.chunk.js",
     "static/media/maxresdefault.jpg": "/warkers/static/media/maxresdefault.22d964a40fab4b70fc12.jpg",
     "static/media/gomel.jpg": "/warkers/static/media/gomel.c026ce5ad5a6841a759f.jpg",
@@ -11,12 +11,12 @@
     "static/media/brest.jpg": "/warkers/static/media/brest.50186b9b0f463b499788.jpg",
     "static/media/more.png": "/warkers/static/media/more.3f88e878520912a42b61.png",
     "index.html": "/warkers/index.html",
-    "main.ac6e2fc1.css.map": "/warkers/static/css/main.ac6e2fc1.css.map",
-    "main.a4067335.js.map": "/warkers/static/js/main.a4067335.js.map",
+    "main.18226f6c.css.map": "/warkers/static/css/main.18226f6c.css.map",
+    "main.6d4f0cf2.js.map": "/warkers/static/js/main.6d4f0cf2.js.map",
     "787.2b9dd4ec.chunk.js.map": "/warkers/static/js/787.2b9dd4ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac6e2fc1.css",
-    "static/js/main.a4067335.js"
+    "static/css/main.18226f6c.css",
+    "static/js/main.6d4f0cf2.js"
   ]
 }
