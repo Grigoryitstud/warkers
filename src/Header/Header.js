@@ -7,7 +7,9 @@ let pagesContent = [
   {id: 1, link:'/warkers', name:'ГЛАВНАЯ'},
   {id: 2, link:'/Build', name:'СТОРОИТЕЛЬСТВО'},
   {id: 3, link:'/Car', name:'АВТО'},
-  {id: 4, link:'/Other', name:'ДРУГИЕ УСЛУГИ'}
+  {id: 4, link:'/Beauty', name:'КРАСОТА'},
+  {id: 5, link:'/Travel', name:'ДОСУГ'},  
+  {id: 6, link:'/Other', name:'ДРУГИЕ УСЛУГИ'}
 ]
 
 let mainPages = pagesContent.map( pagesContent => <NavLink to={pagesContent.link}
@@ -23,6 +25,12 @@ const Header = (props) => {
           <div className={s.header__logo}>
             <img src={logo} alt="" />
           </div>
+
+          <div className={s.header__burger}>
+
+                <span></span>
+
+            </div>
 
           <nav className={s.nav}>
           {mainPages}

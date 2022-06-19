@@ -1,12 +1,9 @@
 import React from 'react';
-import s from './Build.module.css';
+import s from './Travel.module.css';
 import 'leaflet/dist/leaflet.css';
 import { NavLink} from 'react-router-dom';
 import All from '../All/All';
 import gomel from '../img/gomel.jpg';
-import brest from '../img/brest.jpg';
-import grodno from '../img/grodno.jpg';
-import minsk from '../img/minsk.jpg';
 
 const coordinates = [
     { id: 1, x: 52.425, y: 30.964, img: gomel, text: 'khgshfdgsd' },
@@ -28,29 +25,29 @@ const coordinates = [
     { id: 8, x: 52.465, y: 31.014, img: gomel, text: 'khgshfdgsd' },
     { id: 9, x: 52.465, y: 31.034, img: gomel, text: 'khgshfdgsd' },
     { id: 10, x: 52.481, y: 31.014, img: gomel, text: 'khgshfdgsd' },
-    { id: 11, x: 52.459, y: 30.954, img: brest, text: 'yoyoyo' },
-    { id: 12, x: 52.465, y: 30.969, img: grodno, text: 'hahaha' },
-    { id: 13, x: 52.385, y: 30.884, img: minsk, text: 'yyyyyaaaahhhhhooooo' },
-    { id: 14, x: 52.475, y: 30.924, img: minsk, text: 'yyyyyaaaahhhhhooooo' },
-    { id: 15, x: 52.405, y: 30.924, img: minsk, text: 'yyyyyaaaahhhhhooooo' },
-    { id: 16, x: 52.415, y: 30.947, img: minsk, text: 'yyyyyaaaahhhhhooooo' },
-    { id: 17, x: 52.395, y: 30.960, img: minsk, text: 'yyyyyaaaahhhhhooooo' },
-    { id: 18, x: 52.445, y: 30.944, img: minsk, text: 'yyyyyaaaahhhhhooooo' },
-    { id: 19, x: 52.435, y: 30.964, img: minsk, text: 'yyyyyaaaahhhhhooooo' },
-    { id: 20, x: 52.415, y: 30.984, img: minsk, text: 'yyyyyaaaahhhhhooooo' }
+    { id: 11, x: 52.459, y: 30.954, img: gomel, text: 'yoyoyo' },
+    { id: 12, x: 52.465, y: 30.969, img: gomel, text: 'hahaha' },
+    { id: 13, x: 52.385, y: 30.884, img: gomel, text: 'yyyyyaaaahhhhhooooo' },
+    { id: 14, x: 52.475, y: 30.924, img: gomel, text: 'yyyyyaaaahhhhhooooo' },
+    { id: 15, x: 52.405, y: 30.924, img: gomel, text: 'yyyyyaaaahhhhhooooo' },
+    { id: 16, x: 52.415, y: 30.947, img: gomel, text: 'yyyyyaaaahhhhhooooo' },
+    { id: 17, x: 52.395, y: 30.960, img: gomel, text: 'yyyyyaaaahhhhhooooo' },
+    { id: 18, x: 52.445, y: 30.944, img: gomel, text: 'yyyyyaaaahhhhhooooo' },
+    { id: 19, x: 52.435, y: 30.964, img: gomel, text: 'yyyyyaaaahhhhhooooo' },
+    { id: 20, x: 52.415, y: 30.984, img: gomel, text: 'yyyyyaaaahhhhhooooo' }
 ]
 let pagesContent = [
-    { id: 1, link: '/Build', name: 'ВСЕ' },
-    { id: 2, link: '/Build/Mol', name: 'ОТДЕЛОЧНЫЕ' },
-    { id: 3, link: '/Build/Mon', name: 'СПЕЦИАЛЬНЫЕ' },
-    { id: 4, link: '/Build/Soc', name: 'ОБЩЕСТРОИТЕЛЬНЫЕ' }
+    { id: 1, link: '/Travel', name: 'ВСЕ' },
+    { id: 2, link: '/Travel/Nature', name: 'ПРИРОДА' },
+    { id: 3, link: '/Travel/Food', name: 'ЕДА' },
+    { id: 4, link: '/Travel/Fun', name: 'РАЗВЛЕЧЕНИЯ' }
   
   ]
   let mainPages = pagesContent.map(pagesContent => <NavLink to={pagesContent.link}
     className={navData => navData.isActive ? s.active : s.title}>
     {pagesContent.name}</NavLink>)
 
-const Build = () => {
+const Travel = () => {
     return (
         <div className={s.demo}>
                 <div className={s.main}>
@@ -61,4 +58,4 @@ const Build = () => {
     );
 }
 
-export default Build;
+export default Travel;

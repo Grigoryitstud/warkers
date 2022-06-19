@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Mon.module.css';
+import s from './Service.module.css';
 import 'leaflet/dist/leaflet.css';
 import { NavLink } from 'react-router-dom';
 import All from '../../All/All';
@@ -23,26 +23,26 @@ const coordinates = [
     { id: 20, x: 52.415, y: 30.984, img: minsk, text: 'yyyyyaaaahhhhhooooo' }
 ]
 let pagesContent = [
-    { id: 1, link: '/Build', name: 'ВСЕ' },
-    { id: 2, link: '/Build/Mol', name: 'ОТДЕЛОЧНЫЕ' },
-    { id: 3, link: '/Build/Mon', name: 'СПЕЦИАЛЬНЫЕ' },
-    { id: 4, link: '/Build/Soc', name: 'ОБЩЕСТРОИТЕЛЬНЫЕ' }
+    { id: 1, link: '/Car', name: 'ВСЕ' },
+    { id: 2, link: '/Car/Repair', name: 'РЕМОНТ' },
+    { id: 3, link: '/Car/Service', name: 'ОБСЛУЖИВАНИЕ' },
+    { id: 4, link: '/Car/Parts', name: 'ЗАПЧАСТИ' }
+  
+  ]
+// let subPagesContent = [
+//     { id: 2, link: '/Build/Mol/fd', name: 'САНТЕХНИКА ЭЛЕКТРИКА' },
+//     { id: 3, link: '/Build/Mon/sffg', name: 'ОКНА ДВЕРИ' },
+//     { id: 4, link: '/Build/Soc/eg', name: 'АВТОМАТИКА' }
 
-]
-let subPagesContent = [
-    { id: 2, link: '/Build/Mol/fd', name: 'САНТЕХНИКА ЭЛЕКТРИКА' },
-    { id: 3, link: '/Build/Mon/sffg', name: 'ОКНА ДВЕРИ' },
-    { id: 4, link: '/Build/Soc/eg', name: 'АВТОМАТИКА' }
-
-]
+// ]
 let mainPages = pagesContent.map(pagesContent => <NavLink to={pagesContent.link}
     className={navData => navData.isActive ? s.active : s.title}>
     {pagesContent.name}</NavLink>)
-let subPages = subPagesContent.map(pagesContent => <NavLink to={pagesContent.link}
-    className={navData => navData.isActive ? s.active : s.title}>
-    {pagesContent.name}</NavLink>)
+// let subPages = subPagesContent.map(pagesContent => <NavLink to={pagesContent.link}
+//     className={navData => navData.isActive ? s.active : s.title}>
+//     {pagesContent.name}</NavLink>)
 
-const Mon = () => {
+const Service = () => {
     return (
         <div className={s.demo}>
             <div className={s.main}>
@@ -56,4 +56,4 @@ const Mon = () => {
     );
 }
 
-export default Mon;
+export default Service;

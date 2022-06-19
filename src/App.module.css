@@ -28,7 +28,8 @@ background: bisque;
 
     grid-template-areas: 
     "a"
-    "b";
+    "b"
+    "c";
     gap: 10px;
 
     grid-template-rows: 100px 1fr
@@ -36,4 +37,6 @@ background: bisque;
   }
 .mainStyles {
     grid-area: b;
+    max-height: 500px;
+    width: auto;
 }

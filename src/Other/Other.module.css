@@ -9,8 +9,48 @@
     background-color: blanchedalmond;
 }
 .titles {
-    text-align: center;
+    height: 80px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
 }
+.main {
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    
+}
+.title {
+    text-decoration: none;
+    background-color: cadetblue;
+    border-radius: 20px;
+    padding: 2px 5px;
+    opacity: .75;
+}
+.title:hover {  /*при наведении*/
+    opacity: 1;/*нижнее подчеркивание*/
+}
+.active {
+    text-decoration: none;
+    background-color: cadetblue;
+    border-radius: 20px;
+    padding: 2px 5px;
+    color: #f15624;
+    opacity: 1;
+}
+.secondary {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
 .pop {
     width: 150px;
     height: 200px;

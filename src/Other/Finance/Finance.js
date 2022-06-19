@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Soc.module.css';
+import s from './Finance.module.css';
 import 'leaflet/dist/leaflet.css';
 import { NavLink} from 'react-router-dom';
 import All from '../../All/All';
@@ -20,27 +20,27 @@ const coordinates = [
    
 ]
 let pagesContent = [
-    { id: 1, link: '/Build', name: 'ВСЕ' },
-    { id: 2, link: '/Build/Mol', name: 'ОТДЕЛОЧНЫЕ' },
-    { id: 3, link: '/Build/Mon', name: 'СПЕЦИАЛЬНЫЕ' },
-    { id: 4, link: '/Build/Soc', name: 'ОБЩЕСТРОИТЕЛЬНЫЕ' }
+    { id: 1, link: '/Other', name: 'ВСЕ' },
+    { id: 2, link: '/Other/Art', name: 'ИСКУССТВО' },
+    { id: 3, link: '/Other/Technique', name: 'ТЕХНИКА' },
+    { id: 4, link: '/Other/Finance', name: 'ФИНАНСЫ' }
   
   ]
-  let subPagesContent = [
-    { id: 2, link: '/Build/Mol/f', name: 'КАПИТАЛЬНЫЕ' },
-    { id: 3, link: '/Build/Mon/sffg', name: 'ПРОРАБ' },
-    { id: 4, link: '/Build/Soc/eg', name: 'БЕЗ ОСОБЫХ НАВЫКОВ' }
+//   let subPagesContent = [
+//     { id: 2, link: '/Build/Mol/f', name: 'КАПИТАЛЬНЫЕ' },
+//     { id: 3, link: '/Build/Mon/sffg', name: 'ПРОРАБ' },
+//     { id: 4, link: '/Build/Soc/eg', name: 'БЕЗ ОСОБЫХ НАВЫКОВ' }
   
-  ]
+//   ]
 
   let mainPages = pagesContent.map(pagesContent => <NavLink to={pagesContent.link}
     className={navData => navData.isActive ? s.active : s.title}>
     {pagesContent.name}</NavLink>)
-        let subPages = subPagesContent.map(pagesContent => <NavLink to={pagesContent.link}
-            className={navData => navData.isActive ? s.active : s.title}>
-            {pagesContent.name}</NavLink>)
+        // let subPages = subPagesContent.map(pagesContent => <NavLink to={pagesContent.link}
+        //     className={navData => navData.isActive ? s.active : s.title}>
+        //     {pagesContent.name}</NavLink>)
 
-const Soc = () => {
+const Finance = () => {
     return (
         <div className={s.demo}>
                 <div className={s.main}>
@@ -54,4 +54,4 @@ const Soc = () => {
     );
 }
 
-export default Soc;
+export default Finance;
